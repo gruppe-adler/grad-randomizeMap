@@ -1,4 +1,4 @@
-[![Logo](data/logo.png)](https://imgur.com/a/klUBk)
+[](https://imgur.com/a/klUBk)
 
 # grad_randomizeMap
 
