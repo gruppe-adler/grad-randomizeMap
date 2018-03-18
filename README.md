@@ -1,4 +1,4 @@
-<img src="https://imgur.com/a/klUBk.png">
+<img src="https://imgur.com/a/klUBk">
 
 # grad_randomizeMap
 
