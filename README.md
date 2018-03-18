@@ -1,8 +1,6 @@
 ![alt text](https://imgur.com/V2xXenb.png)
 
-# grad_randomizeMap
-
-# Description
+## Description
 This module changes the color of Buildings on the Following maps:
 - Altis 
 - Stratis
