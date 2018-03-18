@@ -1,4 +1,4 @@
-![alt text](https://imgur.com/V2xXenb)
+![alt text](https://imgur.com/V2xXenb.png)
 
 # grad_randomizeMap
 
