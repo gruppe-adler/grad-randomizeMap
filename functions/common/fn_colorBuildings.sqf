@@ -10,6 +10,7 @@ _pos = [worldSize /2, worldSize /2, 0];
 _distanze = worldSize;
 
 _housesArray = nearestTerrainObjects [_pos, ["House"], _distance, false, true];
+Grad_replacedBuildings = [];
 
 //sorts the building
 {
@@ -17,6 +18,12 @@ _housesArray = nearestTerrainObjects [_pos, ["House"], _distance, false, true];
 		_replacement = selectRandom (getArray (missionConfigFile >> "cfgBuildingReplacement" >> (typeOf _x) >> "replacementArray"));
 		if ((typeOf _X) != _replacement) then {
 			[_x, _replacement] call grad_randomizeMap_fnc_replaceBuilding;
+			Grad_replacedBuildings pushback _x;
 		};
 	};
 }forEach _housesArray;
+
+publicVariable "Grad_replacedBuildings";
+
+sleep 5;
+[] remoteExecCall ["grad_randomizeMap_fnc_clientCheck", -2, true];
