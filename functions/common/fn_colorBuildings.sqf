@@ -6,7 +6,8 @@ The follwoing parameters have to be passed to the script
 - _distance = limits the max search range
 */
 
-params ["_pos", "_distance", ["_building", false], ["_tree", false]];
+_pos = [worldSize /2, worldSize /2, 0];
+_distanze = worldSize;
 
 _housesArray = nearestTerrainObjects [_pos, ["House"], _distance, false, true];
 
