@@ -5,7 +5,7 @@
 class grad_randomizeMap {
         class common {
             file = MODULES_DIRECTORY\grad_randomizeMap\functions\common;
-            class colorBuildings {};
+            class colorBuildings {preInit = 1;};
             class replaceBuilding {};
         };
 };
