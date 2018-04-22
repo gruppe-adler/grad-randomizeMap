@@ -2,7 +2,7 @@
 
 ## Description
 This module changes the color of Buildings on the Following maps:
-- Altis 
+- Altis
 - Stratis
 
 ## Installation
@@ -22,11 +22,7 @@ class CfgFunctions {
 ### description.ext
 
 Add the following:
-```#include "node_modules\grad_randomizeMap\cfgLists.hpp"```
+```#include "node_modules\grad_randomizeMap\cfgBuildingList.hpp"```
 
 And to th cfgFunctions
 ```#include "node_modules\grad_randomizeMap\cfgFunctions.hpp"```
-
-### initServer.sqf
-Add the following:
-```[Positon, Range] call grad_randomizeMap_fnc_colorBuildings;```

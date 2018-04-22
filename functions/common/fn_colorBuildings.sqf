@@ -6,8 +6,8 @@ The follwoing parameters have to be passed to the script
 - _distance = limits the max search range
 */
 
-_pos = [worldSize /2, worldSize /2, 0];
-_distanze = worldSize;
+_pos = [(worldSize /2), (worldSize /2), 0];
+_distance = worldSize;
 
 _housesArray = nearestTerrainObjects [_pos, ["House"], _distance, false, true];
 Grad_replacedBuildings = [];
@@ -24,6 +24,4 @@ Grad_replacedBuildings = [];
 }forEach _housesArray;
 
 publicVariable "Grad_replacedBuildings";
-
-sleep 5;
 [] remoteExecCall ["grad_randomizeMap_fnc_clientCheck", -2, true];
