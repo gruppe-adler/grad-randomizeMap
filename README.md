@@ -24,5 +24,5 @@ class CfgFunctions {
 Add the following:
 ```#include "node_modules\grad_randomizeMap\cfgBuildingList.hpp"```
 
-And to th cfgFunctions
+And to the cfgFunctions
 ```#include "node_modules\grad_randomizeMap\cfgFunctions.hpp"```
