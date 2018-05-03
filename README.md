@@ -13,7 +13,7 @@ This module changes the color of Buildings on the Following maps:
 
 ```sqf
 class CfgFunctions {
-    #include "modules\grad-gpsTracker\cfgFunctions.hpp"
+    #include "modules\grad_randomizeMap\cfgFunctions.hpp"
 };
 ```
 
